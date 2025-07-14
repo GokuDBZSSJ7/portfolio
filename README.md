@@ -13,12 +13,13 @@ O portfólio está dividido por seções claras e bem definidas, oferecendo uma 
 lucas-portfolio/ \
 ├── public/ → Ícones, imagens e arquivos estáticos \
 ├── src/ \
-│ ├── components/ → Componentes reutilizáveis de layout e seções \
-│ ├── sections/ → Seções principais do site (Hero, About, Skills etc.) \
 │ ├── assets/ → Imagens, ilustrações e ícones \
+│ ├── components/ → Componentes reutilizáveis de layout e seções \
+│ ├── data/ → Dados usados no site \
+│ ├── layouts/ → Criação do layout geral usado no site \
+│ ├── sections/ → Seções principais do site (Hero, About, Skills etc.) \
 │ ├── App.jsx → Composição das seções \
 │ └── main.jsx → Entrada principal do React \
-├── tailwind.config.js → Configurações do Tailwind \
 ├── vite.config.js → Configuração do Vite \
 └── index.html → HTML base do Vite
 
@@ -69,4 +70,4 @@ http://localhost:5173
 
 ## 💻​ Acesse o projeto que está no Ar!
 
-Link do site: `https://portfolio-lucas-baggio.netlify.app`
+Link do site: https://portfolio-lucas-baggio.netlify.app
