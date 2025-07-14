@@ -1,12 +1,72 @@
-# React + Vite
+# 🌐 Portfólio Profissional — Lucas Baggio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu portfólio pessoal, desenvolvido com foco em **visibilidade profissional**, **experiência de usuário** e **responsividade**, com o objetivo de apresentar minhas habilidades como Desenvolvedor Full Stack, destacar meus projetos, serviços oferecidos e permitir contato direto com potenciais clientes e recrutadores.
 
-Currently, two official plugins are available:
+O site foi feito em **React + Vite**, com estilização utilizando **TailwindCSS** e navegação suave entre seções. Toda a interface foi planejada para entregar um layout moderno, limpo e memorável.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧱 Estrutura do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O portfólio está dividido por seções claras e bem definidas, oferecendo uma navegação fluida e responsiva:
+
+lucas-portfolio/ \
+├── public/ → Ícones, imagens e arquivos estáticos \
+├── src/ \
+│ ├── components/ → Componentes reutilizáveis de layout e seções \
+│ ├── sections/ → Seções principais do site (Hero, About, Skills etc.) \
+│ ├── assets/ → Imagens, ilustrações e ícones \
+│ ├── App.jsx → Composição das seções \
+│ └── main.jsx → Entrada principal do React \
+├── tailwind.config.js → Configurações do Tailwind \
+├── vite.config.js → Configuração do Vite \
+└── index.html → HTML base do Vite
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- ✅ **React 18**
+- ✅ **Vite** para build e desenvolvimento local rápido
+- ✅ **TailwindCSS** para estilização moderna e responsiva
+- ✅ **Framer Motion** para animações leves e suaves
+- ✅ **Lucide Icons** para ícones vetoriais modernos
+
+---
+
+## ✨ Funcionalidades e Seções
+
+- ✅ **Hero Section** com nome, especialização e CTA
+- ✅ **Feature Highlight** com diferenciais profissionais
+- ✅ **Cards de Habilidades** com stacks e ferramentas
+- ✅ **Sobre Mim** com foco em jornada e valores
+- ✅ **Projetos** com descrição, tecnologias e links
+- ✅ **Depoimentos**
+- ✅ **Contato** com formulário direto e links sociais
+- ✅ **Rodapé personalizado**
+- ✅ Design 100% **responsivo**, funcional em desktop e mobile
+- ✅ Navegação suave entre seções (smooth scroll)
+
+---
+
+## ⚙️ Como rodar localmente
+
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/GokuDBZSSJ7/portfolio.git
+
+# 2. Acessar a pasta do projeto
+cd portfolio
+
+# 3. Instalar as dependências
+npm install
+
+# 4. Rodar o servidor de desenvolvimento
+npm run dev
+
+# 5. Acessar no navegador:
+http://localhost:5173
+
+## 💻​ Acesse o projeto que está no Ar!
+
+Link do site: `https://portfolio-lucas-baggio.netlify.app`
